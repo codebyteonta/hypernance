@@ -40,7 +40,7 @@ const Header = ({ setActive }) => {
               alt="main"
             />
             <h2 className="text-coarsewool cursor-pointer text-[16px] font-normal">
-              Jordan Stlouis
+              Teonta Pegues
             </h2>
           </div>
         </div>
