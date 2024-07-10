@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+  font-family: "Poppins", sans-serif;
+}
+.yes {
+  border: 2px solid white;
+  box-shadow: 0 0 0 1px #ff4cff;
+  appearance: none;
+  border-radius: 50%;
+  width: 13px;
+  height: 13px;
+  background-color: #fff;
+  transition: all ease-in 0.2s;
+}
+.yes:checked {
+  background-color: #ff4cff;
+}
+.bg_color {
+  background: linear-gradient(180deg, rgba(36, 2, 70, 0) 32.92%, #240246 91.26%),
+    #0b0015;
+}
+/* Hide scrollbar for Chrome, Safari and Opera */
+.example::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.example {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.background-join {
+  background-image: url("./assets/img/join-bg.png");
+}
+.background-join2 {
+  background-image: url("./assets/img/join-bg2.png");
+}
+.dates_picker .react-datepicker__header {
+  background-color: #ff4cff !important;
+  color: white !important;
+}
+.dates_picker .react-datepicker__current-month,
+.react-datepicker-time__header,
+.react-datepicker-year-header {
+  color: white !important;
+}
+.dates_picker
+  .react-datepicker__header
+  .react-datepicker__day-names
+  .react-datepicker__day-name,
+.react-datepicker__day .react-datepicker__time-name {
+  color: white !important;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #ff4cff;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
